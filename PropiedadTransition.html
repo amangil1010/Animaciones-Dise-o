@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    a {
+        font-size: 30px;
+        padding: 5px;
+        color: blue;
+        transition: color 0.5s linear, transform 0.5s linear;
+        transform: scale(1) rotate(0deg);
+    }
+    div{
+        width: fit-content;
+    }
+
+    a:hover {
+        color: red;
+    transform: scale(2) rotate(180deg);
+    transition: 2s;
+    }
+
+    div:hover {
+    color: red;
+    transform: rotate(180deg);
+    transition: 2s;
+    }
+</style>
+</head>
+<body>
+
+    <div>
+    <a href="#">Link</a>
+    </div>
+
+</body>
+</html>
